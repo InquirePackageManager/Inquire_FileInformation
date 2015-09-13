@@ -14,6 +14,6 @@ APM_add_package_repository(packageRepo FOLDER "${CMAKE_CURRENT_BINARY_DIR}/packa
 
 require_package(FileInformation VERSION 1.2.0)
 
-file(SIZE "${CMAKE_CURRENT_BINARY_DIR}/APM.zip" l_APM_zip_size)
+file(SIZE "${CMAKE_CURRENT_LIST_DIR}/../../APM/APM.cmake" l_APM_zip_size)
 
 message(STATUS "l_APM_zip_size = ${l_APM_zip_size}")
